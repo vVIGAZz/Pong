@@ -1,0 +1,17 @@
+EnemyScore {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+
+	.eScore {
+		position: absolute;
+		top: 32px;
+		left: 300px;
+		font-family: Impact;
+		font-size: 64px;
+		color: white;
+	}
+}

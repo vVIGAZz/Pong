@@ -1,0 +1,21 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+
+<root>
+    <div class="pScore">
+        <p>
+            Enemy Score: @ball.enemyScore
+        </p>
+    </div>
+
+</root>
+
+@code
+{
+    [Property] BallMovement ball { get; set; }
+    protected override int BuildHash()
+    {
+        return System.HashCode.Combine(ball.enemyScore);
+    }
+}

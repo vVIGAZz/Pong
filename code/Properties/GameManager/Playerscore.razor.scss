@@ -1,0 +1,21 @@
+PlayerScore {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: Poppins;
+	font-size: 24px;
+
+
+	.pScore {
+		position: absolute;
+		top: 32px;
+		left: 1240px;
+		font-family: Impact;
+		font-size: 64px;
+		color: white;
+	}
+
+
+}
